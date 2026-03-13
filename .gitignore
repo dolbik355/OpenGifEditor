@@ -1,0 +1,8 @@
+# Скомпилированные файлы
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.vs/
+*.csproj.user
