@@ -1,48 +1,48 @@
-OpenGifEditor — Редактор GIF-анимаций
-OpenGifEditor — это мощное и интуитивно понятное Windows-приложение на языке C#, предназначенное для покадрового редактирования GIF-файлов. Приложение поддерживает полный цикл обработки: от изменения разрешения до управления временем задержки кадров.
-Основные возможности
-1. Начало работы и интерфейс
-При запуске приложения пользователя встречает современный интерфейс в темной теме. Основное меню позволяет быстро открыть нужный GIF-файл для дальнейшей работы.
+OpenGifEditor — GIF Animation Editor
+OpenGifEditor is a powerful and intuitive C#-based Windows application designed for frame-by-frame editing of GIF files. The application supports a full processing cycle: from resolution adjustments to managing frame delays.
+Key Features
+1. Getting Started and Interface
+Upon launching the application, users are greeted by a modern dark-themed interface. The main menu allows for quickly opening the desired GIF file for further work.
 ![alt text](images/image1.png)
 
-Рисунок 1 – Начальный экран приложения
-2. Навигация и выбор кадров
-После открытия файла анимация разбивается покадрово. Пользователь может перемещаться между фреймами с помощью ползунка. В нижнем левом углу отображается счетчик кадров (текущий и общее количество).
+Figure 1 – Application Start Screen
+2. Navigation and Frame Selection
+After opening a file, the animation is broken down frame by frame. Users can navigate through frames using a slider. A frame counter (displaying current and total frames) is located in the lower-left corner.
 ![alt text](images/image3.png)
 
-Рисунок 2 – Окно программы после открытия файла
-3. Инструментарий редактирования
-Обрезка разрешения (Crop)
-Инструмент позволяет обрезать анимацию со всех сторон.
-Визуальный контроль: Удаляемые области подсвечиваются красным цветом.
-Прозрачность: Области не наслаиваются друг на друга, позволяя точно видеть границы редактирования.
+Figure 2 – Program window after opening a file
+3. Editing Toolkit
+Resolution Cropping (Crop)
+This tool allows users to crop the animation from all sides.
+Visual Feedback: Areas to be removed are highlighted in red.
+Transparency: Overlapping areas do not layer opaque colors, allowing users to clearly see the editing boundaries.
 ![alt text](images/image4.png)
 
-Рисунок 3 – Редактирование разрешения формата
-Обрезка по длине
-Функция позволяет удалять лишние кадры, задавая диапазон начала и конца сохраняемых фреймов. Значения можно вводить вручную или устанавливать на основе текущего выбранного кадра.
-Добавление кадров
-Пользователь может вставлять новые изображения в любое место существующей анимации, выбирая номер кадра, после которого будет произведена вставка.
+Figure 3 – Resolution/Format Editing
+Trim by Length
+This feature allows users to delete unnecessary frames by specifying a range for the start and end frames to be kept. Values can be entered manually or set based on the currently selected frame.
+Adding Frames
+Users can insert new images anywhere within the existing animation by selecting the specific frame number after which the insertion will occur.
 ![alt text](images/image8.png)
 
-Рисунок 4 – Добавление нового кадра
-4. Система предпросмотра
-Перед применением любых изменений открывается окно предпросмотра. Оно позволяет:
-Просмотреть результат в динамике (кнопка «Воспроизвести»).
-Пролистать результат покадрово.
-Подтвердить («Применить») или сбросить («Отмена») внесенные правки.
+Figure 4 – Adding a new frame
+4. Preview System
+Before applying any changes, a preview window opens. It allows users to:
+View the result dynamically (via the "Play" button).
+Scroll through the result frame by frame.
+Confirm ("Apply") or discard ("Cancel") the edits.
 ![alt text](images/image5.png)
 
-Рисунок 5 – Окно предпросмотра и взаимодействия с ним
-Настройка времени кадров
-Приложение позволяет задавать индивидуальную задержку для каждого кадра в миллисекундах (1/1000 сек), что дает полный контроль над скоростью анимации.
+Figure 5 – Preview window and interaction
+5. Frame Timing Adjustments
+The application allows users to set individual delays for each frame in milliseconds (1/1000 sec), providing full control over the animation speed.
 ![alt text](images/image10.png)
 
-Рисунок 6 – Окно настройки времени кадров
-6. История действий (Undo/Redo)
-В приложении реализована система отмены и возврата действий. Если результат редактирования не удовлетворил пользователя, он может нажать кнопку «Вернуть», чтобы откатиться к предыдущему состоянию.
-7. Безопасное сохранение
-При попытке выхода из программы без сохранения изменений система выдает предупреждение. Это защищает пользователя от случайной потери работы.
+Figure 6 – Frame timing settings window
+6. History Management (Undo/Redo)
+The application features an integrated undo and redo system. If an edit does not meet the user's expectations, they can click the "Undo" button to revert to the previous state.
+7. Safe Saving
+If a user attempts to exit the program without saving changes, the system issues a warning. This prevents accidental loss of progress.
 ![alt text](images/image15.png)
 
-Рисунок 7 – Окно с вопросом сохранения
+Figure 7 – Save confirmation window
